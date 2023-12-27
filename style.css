@@ -1,24 +1,55 @@
+/*Este es el cuerpo*/
 body {
-    background-color: azure;
-    align-items: center;
+    background-color: #2f302d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
-h2 {
-    color:rgb(18, 228, 70);
+/*Este es la pagina principal*/
+.mainbox {
+    display: block;
+    border: 3px solid black;
+    width: 750px;
+    height: 1300px;
+    background-color: #7b7c7a;
+    margin: auto;
+    border-radius: 2%;
+}
+
+.pagetitle {
+    color: aquamarine;
     text-align: center;
 }
-h1 {
-    color: black;
-    text-align: center;
+
+.menu {
+    display: inline;
+    border: 3px solid black;
+    width: 250px;
+    height: 230px;
+    margin: 15px;
+    position:fixed;
+    background-color: #7b7c7a;
+    margin-top: -1300px;
 }
+
 p {
+    color: beige;
     text-align: center;
+    text-shadow: 0 0 5px black;
 }
+
+h2 {
+    color: brown;
+    text-align: center;
+    border: 30px black;
+}
+
 img {
-    align-items: center;
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 2%;
 }
-ul {
-    text-align: center;
-}
-ol {
+ul,ol {
+    color: aliceblue;
     text-align: center;
 }
